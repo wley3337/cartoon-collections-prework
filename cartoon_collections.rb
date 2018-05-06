@@ -15,7 +15,6 @@ end
 def long_planeteer_calls(array)
   new_array.include? (new_array.each {|x| x.length > 4 })
   
-  
   # Your code here
 end
 
