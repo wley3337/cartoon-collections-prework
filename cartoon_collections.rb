@@ -13,7 +13,8 @@ def summon_captain_planet(epa)
 end
 
 def long_planeteer_calls(array)
-  array.find
+  array.find {|x|
+  
   # Your code here
 end
 
