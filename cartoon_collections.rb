@@ -13,7 +13,7 @@ def summon_captain_planet(epa)
 end
 
 def long_planeteer_calls(array)
-  array.one? { |x|
+  array.any? { |x|
   x.length >= 4 
     
   }
