@@ -13,7 +13,7 @@ def summon_captain_planet(epa)
 end
 
 def long_planeteer_calls(array)
-  array.count {|x|
+  new_array.include? (new_array.each { |x| x.length > 4 })
   
   
   # Your code here
