@@ -13,8 +13,7 @@ def summon_captain_planet(epa)
 end
 
 def long_planeteer_calls(array)
-  new_array.find {|x| 
-  x.length > 4 }
+  new_array.include? (x.length > 4)
   
   # Your code here
 end
